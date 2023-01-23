@@ -1,3 +1,4 @@
+import React from "react";
 import Footer from "./Layout/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homescreen from "./Screens/Homescreen";
@@ -7,10 +8,9 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <Navigation />
       <Routes>
         <Route path="/" element={<Homescreen />} />
-        <Route path="login" element={<Singinscreen />} />
+        <Route path="/login" element={<Singinscreen />} />
       </Routes>
       <Footer />
     </BrowserRouter>

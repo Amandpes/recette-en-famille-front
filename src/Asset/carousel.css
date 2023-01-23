@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+.swiper{
+    width: 500px;
+    height: 400px;
+    
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+
+   
+}
+
+
+.test{
+    color:#FBFCF4;
+    border: #77A8CC 2px solid;
+    border-radius: 50% ;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 15px 5px #83C5BE ;
+    background-color: #77A8CC;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 1;
+    padding:unset;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.test p{
+    font-size: 2rem;
+}
